@@ -16,7 +16,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-8 md:gap-14 items-center text-center md:text-left">
 
               <div className="about-img-wrapper">
-                <img src="..\assets\hero-profile.png" alt="Aravindhan G" onError={(e) => { e.target.src = 'https://via.placeholder.com/220/1e1e23/ffffff?text=AG'; }} />
+                <img src={`${import.meta.env.BASE_URL}assets/hero-profile.png`} alt="Aravindhan G" onError={(e) => { e.target.src = 'https://dummyimage.com/220x220/1e1e23/ffffff&text=AG'; }} />
               </div>
 
               <div className="about-content">
