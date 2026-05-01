@@ -1,0 +1,231 @@
+{
+  "personal": {
+    "name": "Aravindhan Govindaraj",
+    "role": "Full Stack Engineer",
+    "email": "aravindgovindaraj777@gmail.com",
+    "github": "https://github.com/Aravindhan0510",
+    "linkedin": "https://www.linkedin.com/in/aravindhan-g0510/"
+  },
+  "hero": {
+    "badge": "Available for new opportunities",
+    "phrases": [
+      "Java Full-Stack Developer",
+      "Spring Boot & Angular Expert",
+      "Performance Optimizer",
+      "Enterprise Solutions Engineer"
+    ],
+    "description": "Full Stack Engineer focused on predictable delivery, production stability, and reducing operational overhead in high-volume systems.",
+    "stats": [
+      {
+        "number": "4.5",
+        "plus": "+",
+        "label": "Years Exp"
+      },
+      {
+        "number": "45",
+        "plus": "%",
+        "label": "Latency Cut"
+      },
+      {
+        "number": "70",
+        "plus": "%",
+        "label": "Automated"
+      }
+    ],
+    "buttons": {
+      "primary": "View My Work",
+      "secondary": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "A bit about me",
+    "paragraphs": [
+      "Hi, I'm <strong>Aravindhan Govindaraj</strong>. I'm a Full Stack Engineer with 4+ years of experience delivering enterprise-grade web platforms and modernization initiatives. My primary focus is on predictable delivery, production stability, and significantly reducing operational overhead.",
+      "In my current role at Infosys, I've demonstrated velocity in feature development and cross-team collaboration, applying scalable UI patterns and backend performance optimizations that have reduced query latency by 45% and automated over 70% of manual effort."
+    ],
+    "highlights": [
+      "Scalable Architecture",
+      "Performance Optimization",
+      "Enterprise Solutions",
+      "Agile Delivery"
+    ]
+  },
+  "skills": {
+    "subtitle": "Skills",
+    "title": "My tech stack",
+    "categories": [
+      {
+        "title": "Backend",
+        "icon": "fa-code",
+        "tags": [
+          "Java",
+          "Spring Boot",
+          "REST APIs",
+          "JPA",
+          "JDBC"
+        ]
+      },
+      {
+        "title": "Front-end",
+        "icon": "fa-laptop-code",
+        "tags": [
+          "Angular",
+          "RxJS",
+          "TypeScript",
+          "PrimeNG",
+          "HTML",
+          "SCSS"
+        ]
+      },
+      {
+        "title": "Data",
+        "icon": "fa-database",
+        "tags": [
+          "SQL Server",
+          "PL/SQL",
+          "Stored Procedures",
+          "Query Optimization"
+        ]
+      },
+      {
+        "title": "Cloud & DevOps",
+        "icon": "fa-cloud",
+        "tags": [
+          "Azure Pipelines",
+          "Docker",
+          "Git",
+          "GitHub Actions",
+          "CI/CD"
+        ]
+      },
+      {
+        "title": "Testing",
+        "icon": "fa-vial",
+        "tags": [
+          "JUnit",
+          "Mockito",
+          "Jasmine",
+          "Karma"
+        ]
+      },
+      {
+        "title": "Core Strengths",
+        "icon": "fa-cogs",
+        "tags": [
+          "Performance Tuning",
+          "Debugging",
+          "System Integration",
+          "Architecture Patterns"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "subtitle": "Experience",
+    "title": "Professional journey",
+    "timeline": [
+      {
+        "date": "Sept 2021 — Present",
+        "title": "Technology Analyst (Full Stack)",
+        "company": "Infosys — Bengaluru, India",
+        "bullets": [
+          "Led development of high-volume licensing workflow automation for Supply Manager, eliminating <strong>70% manual operations</strong> and improving compliance reliability across 10K+ monthly transactions.",
+          "Optimized large dataset SQL workflows, reducing <strong>query latency by 45%</strong> and stabilizing API response SLAs for 10K+ concurrent users.",
+          "Engineered REST APIs in Spring Boot to support multi-step data validation processes, improving backend reliability in latency-sensitive workflows.",
+          "Modernized Java and Angular applications to LTS versions (Java 21, Angular 16), cutting build times and reducing dependency conflicts.",
+          "Built a shared UI component library (<strong>15+ reusable Angular components</strong>) and service-based RxJS state flows, reducing code duplication by 20%."
+        ],
+        "tags": [
+          "Java",
+          "Spring Boot",
+          "Angular",
+          "SQL Server",
+          "Azure",
+          "Docker"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "subtitle": "Education",
+    "title": "Academic background",
+    "degree": "B.Tech. in Information Technology",
+    "school": "Sri Sai Ram Institute of Technology",
+    "date": "Aug 2017 — May 2021",
+    "achievements": [
+      "Recognized by client leadership for driving backend performance improvements that reduced incident tickets and improved SLA adherence.",
+      "Delivered workflow features on compressed timelines for business-critical releases."
+    ],
+    "interests": [
+      {
+        "icon": "fa-cubes",
+        "text": "Microservices"
+      },
+      {
+        "icon": "fa-cloud",
+        "text": "Cloud (Azure/AWS)"
+      },
+      {
+        "icon": "fa-dharmachakra",
+        "text": "Kubernetes"
+      },
+      {
+        "icon": "fa-network-wired",
+        "text": "Distributed Systems"
+      },
+      {
+        "icon": "fa-robot",
+        "text": "AI Workflows"
+      },
+      {
+        "icon": "fa-layer-group",
+        "text": "Full Stack Architecture"
+      }
+    ]
+  },
+  "projects": {
+    "subtitle": "Projects",
+    "title": "What I've built",
+    "items": [
+      {
+        "title": "Supply Manager",
+        "client": "Client: McKesson",
+        "icon": "fa-shopping-cart",
+        "description": "E-commerce platform with high-volume licensing workflow automation. Eliminated 70% manual operations and improved compliance reliability across 10K+ monthly transactions.",
+        "metrics": [
+          { "value": "70%", "label": "Automation" },
+          { "value": "10K+", "label": "Transactions/mo" }
+        ]
+      },
+      {
+        "title": "Central Pay",
+        "client": "Client: McKesson",
+        "icon": "fa-file-invoice-dollar",
+        "description": "Healthcare data processing platform with bulk claim handling. Developed SQL stored procedures to detect and resolve adjustment errors, reducing claim inaccuracies by 15%.",
+        "metrics": [
+          { "value": "45%", "label": "Latency Reduced" },
+          { "value": "15%", "label": "Error Reduction" }
+        ]
+      },
+      {
+        "title": "Infosys Data Suite",
+        "client": "Client: Infosys (iDSS)",
+        "icon": "fa-exchange-alt",
+        "description": "Data migration platform with automated ETL API workflows for generating source-to-target mappings. Reduced manual mapping time and eliminated human error in data migration processes.",
+        "metrics": [
+          { "value": "90%", "label": "Test Coverage" },
+          { "value": "20%", "label": "Less Duplication" }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Let's work together",
+    "cardTitle": "Get In Touch",
+    "description": "I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology."
+  },
+  "footer": {
+    "text": "Built with React & Apple VisionOS Design Principles."
+  }
+}
