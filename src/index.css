@@ -159,7 +159,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 /* Hero */
-.hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+.hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding-top: 80px; }
 .hero-content { position: relative; z-index: 10; max-width: 800px; padding: 60px 40px; }
 .hero-badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 20px; border-radius: 100px; font-size: 0.85rem; font-weight: 500; margin-bottom: 30px; background: var(--bg-glass); border: 1px solid var(--border-light); backdrop-filter: blur(20px); }
 .status-dot { width: 8px; height: 8px; background: #34c759; border-radius: 50%; }
