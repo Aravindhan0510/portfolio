@@ -16,8 +16,10 @@ const Experience = () => {
             <div className="border-l border-[var(--border-light)] pl-6 md:pl-10 ml-2 md:ml-6">
               {content.experience.timeline.map((exp, idx) => (
                 <div key={idx} className="exp-item">
-                  <span className="exp-date">{exp.date}</span>
-                  <h3>{exp.title}</h3>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: '12px', marginBottom: '4px' }}>
+                    <h3 style={{ margin: 0 }}>{exp.title}</h3>
+                    <span className="exp-date" style={{ marginBottom: 0 }}>{exp.date}</span>
+                  </div>
                   <span className="timeline-company">{exp.company}</span>
                   
                   <ul>
