@@ -16,7 +16,10 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-[240px_1fr] gap-8 md:gap-14 items-center text-center md:text-left">
 
               <div className="about-img-wrapper">
-                <img src={`${import.meta.env.BASE_URL}assets/hero-profile.png`} alt="Aravindhan G" onError={(e) => { e.target.src = 'https://dummyimage.com/220x220/1e1e23/ffffff&text=AG'; }} />
+                <picture>
+                  <source srcSet={`${import.meta.env.BASE_URL}assets/hero-profile.webp`} type="image/webp" />
+                  <img src={`${import.meta.env.BASE_URL}assets/hero-profile.png`} alt="Aravindhan G" onError={(e) => { e.target.src = 'https://dummyimage.com/220x220/1e1e23/ffffff&text=AG'; }} />
+                </picture>
               </div>
 
               <div className="about-content">

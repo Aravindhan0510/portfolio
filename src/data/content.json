@@ -1,7 +1,7 @@
 {
   "personal": {
     "name": "Aravindhan Govindaraj",
-    "role": "Full Stack Engineer",
+    "role": "Java Full-Stack Developer (Java + Angular)",
     "email": "aravindgovindaraj777@gmail.com",
     "github": "https://github.com/Aravindhan0510",
     "linkedin": "https://www.linkedin.com/in/aravindhan-g0510/"
@@ -14,7 +14,7 @@
       "Performance Optimizer",
       "Enterprise Solutions Engineer"
     ],
-    "description": "Full Stack Engineer focused on predictable delivery, production stability, and reducing operational overhead in high-volume systems.",
+    "description": "Full Stack Engineer with 4.5+ years of progressive ownership across backend systems, scalable UI architecture, and data workflows.",
     "stats": [
       {
         "number": "4.5",
@@ -40,8 +40,8 @@
   "about": {
     "title": "A bit about me",
     "paragraphs": [
-      "Hi, I'm <strong>Aravindhan Govindaraj</strong>. I'm a Full Stack Engineer with 4+ years of experience delivering enterprise-grade web platforms and modernization initiatives. My primary focus is on predictable delivery, production stability, and significantly reducing operational overhead.",
-      "In my current role at Infosys, I've demonstrated velocity in feature development and cross-team collaboration, applying scalable UI patterns and backend performance optimizations that have reduced query latency by 45% and automated over 70% of manual effort."
+      "Hi, I'm <strong>Aravindhan Govindaraj</strong>. I'm a Full Stack Engineer with 4.5+ years of progressive ownership across backend systems, scalable UI architecture, and data workflows — delivering measurable impact at McKesson and Infosys.",
+      "Promoted twice within Infosys, I grew from a feature contributor to a Technology Analyst owning end-to-end delivery on enterprise platforms. I am known for backend performance work that cut query latency by 45%, automation that eliminated 70% of manual operations, and frontend architecture that reduced production defects by 25%."
     ],
     "highlights": [
       "Scalable Architecture",
@@ -70,7 +70,7 @@
         "icon": "fa-laptop-code",
         "tags": [
           "Angular",
-          "RxJS",
+          "RxJS (shared state)",
           "TypeScript",
           "PrimeNG",
           "HTML",
@@ -115,7 +115,18 @@
           "Performance Tuning",
           "Debugging",
           "System Integration",
+          "Code Quality",
           "Architecture Patterns"
+        ]
+      },
+      {
+        "title": "Methodologies",
+        "icon": "fa-project-diagram",
+        "tags": [
+          "Agile",
+          "Scrum",
+          "Jira",
+          "Confluence"
         ]
       }
     ]
@@ -125,23 +136,55 @@
     "title": "Professional journey",
     "timeline": [
       {
-        "date": "Sept 2021 — Present",
+        "date": "Jan 2026 – Present (6 mos)",
         "title": "Technology Analyst (Full Stack)",
-        "company": "Infosys — Bengaluru, India",
+        "company": "Infosys — Bengaluru, India | Hybrid",
         "bullets": [
           "Led development of high-volume licensing workflow automation for Supply Manager, eliminating <strong>70% manual operations</strong> and improving compliance reliability across 10K+ monthly transactions.",
           "Optimized large dataset SQL workflows, reducing <strong>query latency by 45%</strong> and stabilizing API response SLAs for 10K+ concurrent users.",
           "Engineered REST APIs in Spring Boot to support multi-step data validation processes, improving backend reliability in latency-sensitive workflows.",
-          "Modernized Java and Angular applications to LTS versions (Java 21, Angular 16), cutting build times and reducing dependency conflicts.",
-          "Built a shared UI component library (<strong>15+ reusable Angular components</strong>) and service-based RxJS state flows, reducing code duplication by 20%."
+          "Coordinated deployments and release approvals with cross-functional product and infrastructure teams, ensuring zero-downtime roll-outs."
         ],
         "tags": [
           "Java",
           "Spring Boot",
+          "REST APIs",
+          "SQL Workflows",
+          "Automation"
+        ]
+      },
+      {
+        "date": "Jan 2024 – Dec 2025 (2 yrs)",
+        "title": "Senior Systems Engineer (Full Stack)",
+        "company": "Infosys — Bengaluru, India | Hybrid",
+        "bullets": [
+          "Modernized Java and Angular applications to LTS versions (<strong>Java 21, Angular 16</strong>), cutting build times and reducing dependency conflicts.",
+          "Built a shared UI component library (<strong>15+ reusable Angular components</strong>) and service-based RxJS state flows, reducing code duplication by 20% and ensuring predictable data propagation across modules.",
+          "Developed SQL stored procedures to detect and resolve adjustment errors in bulk claim data processing, reducing healthcare claim inaccuracies by 15%.",
+          "Created automated ETL API workflows for generating source-to-target mappings, reducing manual mapping time."
+        ],
+        "tags": [
+          "Java 21",
+          "Angular 16",
+          "RxJS",
+          "Stored Procedures",
+          "ETL"
+        ]
+      },
+      {
+        "date": "Oct 2021 – Dec 2023 (2 yrs 3 mos)",
+        "title": "Systems Engineer (Full Stack)",
+        "company": "Infosys — Bengaluru, India | Hybrid",
+        "bullets": [
+          "Implemented Angular reactive form validation and custom field-level verification logic, reducing bad data entry in production by 25%.",
+          "Delivered 90% unit test coverage across core UI components using Jasmine/Karma, preventing regressions and improving release confidence."
+        ],
+        "tags": [
           "Angular",
-          "SQL Server",
-          "Azure",
-          "Docker"
+          "Reactive Forms",
+          "Jasmine",
+          "Karma",
+          "Unit Testing"
         ]
       }
     ]
@@ -150,20 +193,21 @@
     "subtitle": "Education",
     "title": "Academic background",
     "degree": "B.Tech. in Information Technology",
-    "school": "Sri Sai Ram Institute of Technology",
-    "date": "Aug 2017 — May 2021",
+    "school": "Sri Sai Ram Institute of Technology, Chennai, India",
+    "date": "Aug 2017 – May 2021",
     "achievements": [
-      "Recognized by client leadership for driving backend performance improvements that reduced incident tickets and improved SLA adherence.",
+      "Recognized by client leadership at McKesson for driving backend performance improvements that reduced incident tickets and improved SLA adherence.",
+      "Promoted twice within Infosys in 4.5 years — Systems Engineer to Senior Systems Engineer to Technology Analyst.",
       "Delivered workflow features on compressed timelines for business-critical releases."
     ],
     "interests": [
       {
         "icon": "fa-cubes",
-        "text": "Microservices"
+        "text": "Microservices Architecture"
       },
       {
         "icon": "fa-cloud",
-        "text": "Cloud (Azure/AWS)"
+        "text": "Cloud (Azure/AWS/GCP)"
       },
       {
         "icon": "fa-dharmachakra",
@@ -171,7 +215,7 @@
       },
       {
         "icon": "fa-network-wired",
-        "text": "Distributed Systems"
+        "text": "Distributed Design"
       },
       {
         "icon": "fa-robot",
@@ -179,42 +223,78 @@
       },
       {
         "icon": "fa-layer-group",
-        "text": "Full Stack Architecture"
+        "text": "Full Stack Ownership"
       }
     ]
   },
   "projects": {
     "subtitle": "Projects",
     "title": "What I've built",
-    "items": [
+    "professional": [
       {
         "title": "Supply Manager",
-        "client": "Client: McKesson",
+        "client": "Client: McKesson | E-commerce Platform",
         "icon": "fa-shopping-cart",
-        "description": "E-commerce platform with high-volume licensing workflow automation. Eliminated 70% manual operations and improved compliance reliability across 10K+ monthly transactions.",
+        "description": "Led migration of 15 Java microservices from Java 8 to Java 21 (LTS), eliminating end-of-life security exposure. Engineered end-to-end license automation replacing manual approval processes for 10K+ monthly transactions, and implemented type-ahead search across 100K+ records.",
+        "bullets": [
+          "Led migration of 15 Java microservices from Java 8 to Java 21 (LTS), modernizing the service fleet to current LTS standards.",
+          "Engineered an end-to-end license automation workflow replacing a weeks-long manual approval process, handling 10K+ monthly transactions with full compliance tracking.",
+          "Implemented type-ahead search across a 100K+ record dataset, triggering on 3 characters and returning results in milliseconds."
+        ],
         "metrics": [
-          { "value": "70%", "label": "Automation" },
+          { "value": "Java 21", "label": "LTS Migration" },
           { "value": "10K+", "label": "Transactions/mo" }
         ]
       },
       {
         "title": "Central Pay",
-        "client": "Client: McKesson",
+        "client": "Client: McKesson | Healthcare Data Processing",
         "icon": "fa-file-invoice-dollar",
-        "description": "Healthcare data processing platform with bulk claim handling. Developed SQL stored procedures to detect and resolve adjustment errors, reducing claim inaccuracies by 15%.",
+        "description": "Migrated Angular frontend from v11 to v14. Designed EDI 835 error detection stored procedure processing 8K records per file, cutting runtime from 30+ to <3 seconds. Delivered Provider Error Resolution screen with sub-second page loads. Served as Release Coordinator across 4 releases.",
+        "bullets": [
+          "Migrated the Angular frontend from v11 to v14 (LTS), resolving dependency conflicts.",
+          "Designed and implemented an EDI 835 error detection stored procedure processing 8K claim records per file, cutting detection runtime from 30+ seconds to under 3 seconds.",
+          "Delivered the Provider Error Resolution screen end-to-end (Angular + Spring Boot), with query and rendering optimizations.",
+          "Served as Release Coordinator across 4 production releases for a 5-person team, with zero post-release P1 incidents."
+        ],
         "metrics": [
-          { "value": "45%", "label": "Latency Reduced" },
-          { "value": "15%", "label": "Error Reduction" }
+          { "value": "10x", "label": "Perf Boost" },
+          { "value": "0", "label": "P1 Incidents" }
         ]
       },
       {
-        "title": "Infosys Data Suite",
-        "client": "Client: Infosys (iDSS)",
+        "title": "Infosys Data Suite Service (iDSS)",
+        "client": "Client: Infosys | Data Migration Platform",
         "icon": "fa-exchange-alt",
-        "description": "Data migration platform with automated ETL API workflows for generating source-to-target mappings. Reduced manual mapping time and eliminated human error in data migration processes.",
+        "description": "Resolved critical P1/P2 client issues unblocking go-lives. Implemented address validation using Google Address API across 10K batches (reducing errors by 20%). Built 5-second cross-environment workflow replication. Integrated OpenAI to auto-generate ETL mappings.",
+        "bullets": [
+          "Resolved 5 P1 and 10 P2 critical client-reported issues during live data migration engagements.",
+          "Implemented address validation using the Google Address API across batches of 10K records, reducing data quality errors by 20%.",
+          "Built a cross-environment workflow copy feature enabling users to replicate any workflow in under 5 seconds.",
+          "Integrated OpenAI to auto-generate source-to-target ETL mappings supporting RDBMS, flat files, folders, and SAP."
+        ],
         "metrics": [
-          { "value": "90%", "label": "Test Coverage" },
-          { "value": "20%", "label": "Less Duplication" }
+          { "value": "20%", "label": "Errors Reduced" },
+          { "value": "OpenAI", "label": "ETL Mappings" }
+        ]
+      }
+    ],
+    "personal": [
+      {
+        "title": "Dark Data Archaeologist (DDA)",
+        "client": "Gemini CLI Buildathon | 2026",
+        "icon": "fa-robot",
+        "description": "GCP-native 5-agent AI pipeline that transforms 20 years of enterprise dark data into a queryable knowledge graph, targeting $3–5M in pricing intelligence.",
+        "bullets": [
+          "Designed a 5-agent orchestration pipeline on GCP (Cloud Run + Pub/Sub) that ingests and indexes unstructured enterprise assets (PDFs, contracts, emails, audio) at scale.",
+          "Architected hybrid RAG retrieval combining Vertex AI Vector Search for semantic recall and BigQuery graph traversal for relationship-aware queries, with Gemini 2.5 Flash as the synthesis layer.",
+          "Enforced production-grade reliability with confidence scoring thresholds, Human-in-the-Loop (HITL) review gates, and immutable audit trails persisted in Cloud Firestore.",
+          "Built a cost-optimization routing layer that bypasses Document AI for directly parseable documents, reducing unnecessary API calls and pipeline cost.",
+          "Integrated Document AI, Speech-to-Text API, Gemini Embeddings, and BigQuery into a single event-driven pipeline."
+        ],
+        "metrics": [
+          { "value": "5-Agent", "label": "Orchestration" },
+          { "value": "$3-5M", "label": "Pricing Intel" }
         ]
       }
     ]
