@@ -11,22 +11,20 @@ const Projects = () => {
         <span className="proj-client">{project.client}</span>
         
         {project.bullets ? (
-          <ul style={{
-            color: 'var(--text-muted)',
-            fontSize: '0.92rem',
-            lineHeight: '1.5',
-            marginBottom: '24px',
-            paddingLeft: '1.25rem',
-            listStyleType: 'disc',
+          <div style={{
             display: 'flex',
             flexDirection: 'column',
-            gap: '8px',
+            gap: '10px',
+            marginBottom: '24px',
             flexGrow: 1
           }}>
             {project.bullets.map((bullet, i) => (
-              <li key={i} dangerouslySetInnerHTML={{ __html: bullet }}></li>
+              <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '8px' }}>
+                <span style={{ color: 'var(--accent-primary)', fontSize: '1.2rem', lineHeight: '1.1', userSelect: 'none' }}>•</span>
+                <span dangerouslySetInnerHTML={{ __html: bullet }} style={{ color: 'var(--text-muted)', fontSize: '0.92rem', lineHeight: '1.5' }}></span>
+              </div>
             ))}
-          </ul>
+          </div>
         ) : (
           <p className="proj-desc" style={{ flexGrow: 1 }}>{project.description}</p>
         )}

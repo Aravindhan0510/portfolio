@@ -22,11 +22,14 @@ const Experience = () => {
                   </div>
                   <span className="timeline-company">{exp.company}</span>
                   
-                  <ul>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', padding: 0 }}>
                     {exp.bullets.map((bullet, i) => (
-                      <li key={i} dangerouslySetInnerHTML={{ __html: bullet }}></li>
+                      <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: '10px', paddingLeft: 0, position: 'relative' }}>
+                        <span style={{ color: 'var(--accent-primary)', fontSize: '1.2rem', lineHeight: '1.1', userSelect: 'none' }}>•</span>
+                        <span dangerouslySetInnerHTML={{ __html: bullet }} style={{ color: 'var(--text-muted)', fontSize: '1rem', lineHeight: '1.6' }}></span>
+                      </div>
                     ))}
-                  </ul>
+                  </div>
                   
                   <div className="skill-tags" style={{marginTop: '30px'}}>
                     {exp.tags.map(tag => (
